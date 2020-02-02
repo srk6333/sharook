@@ -1,0 +1,17 @@
+#aboutme1:hover,#aboutme1:active {
+    background-color: transparent;
+   
+
+}
+#aboutme {
+    
+    background-color: transparent;
+    
+}
+#aboutme1  {
+    border: 1px;
+    border-radius: 3px;
+    background-color: white;
+    border-color: black;
+    
+}
