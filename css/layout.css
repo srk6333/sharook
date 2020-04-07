@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/vd.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -62,7 +62,7 @@ header .banner-text h1 {
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: 2px 4px 5px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -170,6 +170,7 @@ ul#nav li a {
 	text-decoration: none;
    text-align: left;
    color: #fff;
+   text-shadow: 2px 4px 5px rgba(0, 0, 0, .8);
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -177,7 +178,7 @@ ul#nav li a {
 	-ms-transition: color .2s ease-in-out;
 	transition: color .2s ease-in-out;
 }
-
+ul#nav li a:hover { background-color: #11ABB0; }
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #F06000; }
 
@@ -187,7 +188,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: white;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -788,21 +789,21 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: white;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: black;
 }
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a:hover, #contact a:focus { color: black; }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #EBEEEE;
+   color: black;
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
@@ -819,11 +820,11 @@ call-to-action .button {
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: black;
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 18px/36px 'opensans-bold', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
@@ -834,7 +835,7 @@ call-to-action .button {
 #contact label {
    font: 15px/24px 'opensans-bold', sans-serif;
    margin: 12px 0;
-   color: #EBEEEE;
+   color: black;
 	display: inline-block;
 	float: left;
    width: 26%;
@@ -842,15 +843,15 @@ call-to-action .button {
 #contact input,
 #contact textarea,
 #contact select {
-   padding: 18px 20px;
+ 
 	color: #eee;
 	background: #373233;
-	margin-bottom: 42px;
+	margin-bottom: 20px;
 	border: 0;
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   
 }
 #contact input:focus,
 #contact textarea:focus,
